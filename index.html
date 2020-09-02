@@ -1,200 +1,292 @@
 <html>
+
 <head>
-<title>Resume Website Templet</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <title>Resume Website Templet</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </head>
-    <body>
-        <!-- header Section -->
-        <section id="header">
-            <div class="container text-center">
-                <div class="user-box">
-                    <img src="img/user1.jpg"  height="240" width="150">
-                    <h1> Palash Jain</h1>
-                    <p1>Graduate student of Master of Information Technology & Management at IIT Chicago</p1>
-                </div>
+
+<body>
+  <!-- header Section -->
+  <section id="header">
+    <div class="container text-center">
+      <div class="user-box">
+        <img src="img/user1.jpg" height="240" width="150">
+        <h1> Palash Jain</h1>
+        <p1>Graduate student of Master of Information Technology & Management at IIT Chicago</p1>
+      </div>
+    </div>
+    <div class="scroll-btn">
+      <div class="scroll-bar"><a href="#about"><span></span></a> </div>
+    </div>
+  </section>
+  <!-- User Info Section -->
+  <section id="user-info">
+    <div class="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- <a class="navbar-brand" href="#"><img src="#" width="100" height="100" ></a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="#top">Home </span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Achievements">Achievements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- About Section -->
+    <div class="about Container" id="about">
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <img src="img/user2.jpg" class="profile-img" height="400" width="400">
+        </div>
+        <div class="col-md-6">
+          <h3>Who Am I</h3>
+          <p class="reduceFont"><b>I'm recently graduated with a Master's degree in Information Technology and Management at Illinois Institute of Technology. Being a highly focused and determined person, I find learning new technologies and using them to automate complex tasks fascinating. I firmly believe that controlling complexity is the essence of computer programming.</b></p><p class="reduceFont"><b>I hold a key interest in developing front-end web applications and software development. I want to be able to create consumer-friendly web applications with rich, dynamic, and powerful User-Interfaces. My end goal is to become a versatile engineer who can apply the skills acquired over the years to build efficient tools that serve the industry in the long run.</b>
+          </p>
+          <div class="skillsbar">
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">Java Script</div>
+                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="30"
+                aria-valuemin="0" aria-valuemax="100">ReactJS</div>
             </div>
-            <div class="scroll-btn">
-                <div class="scroll-bar"><a href="#about"><span></span></a> </div>
+            <p> </p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="15" aria-valuemin="0"
+                aria-valuemax="100">HTML</div>
+              <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="30"
+                aria-valuemin="0" aria-valuemax="100">CSS</div>
+              <div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="20"
+                aria-valuemin="0" aria-valuemax="100">XML</div>
             </div>
-        </section>
-        <!-- User Info Section -->
-        <section id="user-info">
-          <div class="nav-bar">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <!-- <a class="navbar-brand" href="#"><img src="#" width="100" height="100" ></a> -->
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">                          <!-- <span class="navbar-toggler-icon"></span> -->
-                          <i class="fas fa-bars"></i>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                          <ul class="navbar-nav ml-auto">
-                            <li class="nav-item ">
-                              <a class="nav-link" href="#top">Home </span></a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#About">About Me</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#Resume">Resume</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#projects">Project</a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="#Achievements">Achievements</a>
-                                </li>
-                            <li class="nav-item">
-                                    <a class="nav-link" href="#Contact">Contact</a>
-                                  </li>
-                           
-                          </ul>
-                        </div>
-                    </nav>
-                  </div>
-                  <!-- About Section -->
-                <div class = "about Container" id="about">
-                    <div class="row">
-                        <div class="col-md-6 text-center">
-                            <img src="img/user2.jpg" class="profile-img" height="400" width="400">
-                        </div>
-                        <div class="col-md-6">
-                          <h3>Who Am I</h3>
-                          <p class="reduceFont"><b>Detail-oriented Engineer with strong educational background in Software Application Development, along with professional experience over 1 year in Software Development and Performance Testing at SAP Labs  . Actively seeking internship/job opportunities to work in a fast paced multitasking environment. Goal-oriented individual with strong work ethics and excellent problem-solving and analytical skills having in-depth knowledge in</b> 
-                            </p>
-                          <div class="skillsbar">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Java Script</div>
-                              </div>
-                              <p>  </p>
-                              <div class="progress">
-                                  <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">HTML</div>
-                                  <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">CSS</div>
-                                  <div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">XML</div>
-                                </div>
-                                <p> </p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Android Studio</div>
-                                  </div>
-                                  <p> </p>
-                                  <div class="progress">
-                                      <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Python</div>
-                                    </div>
-                                    <p> </p>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Java</div>
-                                      </div>
-                                      <p> </p>
-                                      <div class="progress">
-                                          <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HP_LoadRunner</div>
-                                        </div>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Social Icons -->
-                <div class="social-Icon">
-                  <ul> 
-                    <a href="https://www.linkedin.com/in/jainpalashiitc/"><li><i class="fab fa-linkedin-in"></i></li></a>
-                    <a href="https://github.com/palashjain2801"><li><i class="fab fa-github"></i></li></a>
-                  </ul>
-                </div>
+            <p> </p>
+            
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">Python</div>
+                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="30"
+                aria-valuemin="0" aria-valuemax="100">Django</div>
+            </div>
+            <p> </p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">Java</div>
+                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="30"
+                aria-valuemin="0" aria-valuemax="100">J2EE</div>
+            </div>
+            <p> </p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">Android Studio</div>
+            </div>
+            <p> </p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">HP_LoadRunner</div>
+                <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="30"
+                aria-valuemin="0" aria-valuemax="100">Jenkins</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Social Icons -->
+    <div class="social-Icon">
+      <ul>
+        <a href="https://www.linkedin.com/in/jainpalashiitc/">
+          <li><i class="fab fa-linkedin-in"></i></li>
+        </a>
+        <a href="https://github.com/palashjain2801">
+          <li><i class="fab fa-github"></i></li>
+        </a>
+      </ul>
+    </div>
 
-                      <!-- ===========Resume===============   -->
-                      <div class="resume" id="resume">
-                        <div class="container">
-                          <div class="row">
-                            <div class="col-md-6">
-                              <h3 class="text-center"> My Experience </h3>
-                              <ul class="timeline">
-                                <li>
-                                  <h4><span>2018- </span> Software Test Engineer </h4>
-                                  <!-- <p class="reduceFont">• Performed performance testing using benchmark tools like HP LoadRunner which simulates VuGen scripts which empowers testing.<br>• Implemented waterfall model using Selenium Grid to receive immediate feedback from clients on the developments of their projects</p><br> -->
-                                
+    <!-- ===========Resume===============   -->
+    <div class="resume" id="resume">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="text-center"> My Experience </h3>
+            <ul class="timeline">
+              <li>
+                <h4><span>2019- </span>Teaching Assistant </h4>
+                <!-- <p class="reduceFont">• Performed performance testing using benchmark tools like HP LoadRunner which simulates VuGen scripts which empowers testing.<br>• Implemented waterfall model using Selenium Grid to receive immediate feedback from clients on the developments of their projects</p><br> -->
 
-                                  <b>Company</b> - SAP LABS (INDIA)<br>
-                                  <b>Role</b> -  Performance Testing and Quality Analyst<br>
 
-                                  <b>Duration</b> - 1 Year [2017 to 2018]<br>
-                                  <b>Location</b> - Bangalore, INDIA<br>
+                <b>Company</b> - Illinois Institute of Technologies(USA)<br>
+                <b>Role</b> - Web Application and Python Development<br>
+
+                <b>Duration</b> - 1 Year [2019 to 2020] <br>
+                <b>Location</b> - Chicago, USA<br>
 
 
 
-                                </li>
-                                <li>
-                                    <h4><span>2016- </span> Internship</h4>
-                                    <!-- <p class="reduceFont">• Collaborated and assisted in developing projects for Students enrolled in undergraduate program to gain more hands-on experience in programming languages such as C, C++, JAVA.<br> • Accomplished and successfully developed projects for Free software moment Karnataka, India which help in providing solutions to real time issues.  </p><br> -->
-                                    
-                                    <b>Company</b> - Zestech<br>
-                                    <b>Role</b> - Technical Intern as PSET  <br>
+              </li>
+              <li>
+                <h4><span>2019- </span>Internship</h4>
+                <!-- <p class="reduceFont">• Performed performance testing using benchmark tools like HP LoadRunner which simulates VuGen scripts which empowers testing.<br>• Implemented waterfall model using Selenium Grid to receive immediate feedback from clients on the developments of their projects</p><br> -->
 
-                                    <b>Duration</b> - 3 Months<br>
-                                    <b>Location</b> - Bangalore, INDIA<br>
-  
-  
-  
-                                  </li>
-                                  <li>
+
+                <b>Company</b> - Freight Management Inc. (USA)<br>
+                <b>Role</b> - Full-Stack Development<br>
+
+                <b>Duration</b> - 3 Months<br>
+                <b>Location</b> - Chicago, USA<br>
+
+
+
+              </li>
+              <li>
+                <h4><span>2018- </span> Software Test Engineer </h4>
+                <!-- <p class="reduceFont">• Performed performance testing using benchmark tools like HP LoadRunner which simulates VuGen scripts which empowers testing.<br>• Implemented waterfall model using Selenium Grid to receive immediate feedback from clients on the developments of their projects</p><br> -->
+
+
+                <b>Company</b> - SAP LABS (INDIA)<br>
+                <b>Role</b> - Performance Testing and Quality Analyst<br>
+
+                <b>Duration</b> - 1 Year [2017 to 2018]<br>
+                <b>Location</b> - Bangalore, INDIA<br>
+
+
+
+              </li>
+              <li>
+                <h4><span>2016- </span> Internship</h4>
+                <!-- <p class="reduceFont">• Collaborated and assisted in developing projects for Students enrolled in undergraduate program to gain more hands-on experience in programming languages such as C, C++, JAVA.<br> • Accomplished and successfully developed projects for Free software moment Karnataka, India which help in providing solutions to real time issues.  </p><br> -->
+
+                <b>Company</b> - Zestech<br>
+                <b>Role</b> - Technical Intern as PSET <br>
+
+                <b>Duration</b> - 3 Months<br>
+                <b>Location</b> - Bangalore, INDIA<br>
+
+
+
+              </li>
+              <!-- <li>
                                       <h4><span>2016- </span> Freelancer</h4>
-                                      <!-- <p class="reduceFont">• Collaborated and assisted in developing projects for Students enrolled in undergraduate program to gain more hands-on experience in programming languages such as C, C++, JAVA.<br> • Accomplished and successfully developed projects for Free software moment Karnataka, India which help in providing solutions to real time issues.  </p><br> -->
+                                       <p class="reduceFont">• Collaborated and assisted in developing projects for Students enrolled in undergraduate program to gain more hands-on experience in programming languages such as C, C++, JAVA.<br> • Accomplished and successfully developed projects for Free software moment Karnataka, India which help in providing solutions to real time issues.  </p><br>
                                       <b>Duration</b> - 6 months [2017 to 2018]<br>
                                       <b>Location</b> - Bangalore, INDIA<br>
     
     
     
-                                    </li>
-                              </ul>
-                            </div>
-                            <!-- Right Column -->
-                            <div class="col-md-6">
-                                <h3 class="text-center"> Education </h3>
-                                <ul class="timeline">
-                                  <li>
-                                    <h4><span>Master's </span> Information Technology and Management </h4>
-                                    <b>Specialization</b> - Web Application and Development<br>
-                                    <b>Duration</b> - 2 Year [2019 to 2020]<br>
-                                    <b>Institute</b> - Illinois Institute Of Technology<br>
-                                    <b>Aggregate</b> - GPA: 3.66<br>
+                                    </li> -->
+            </ul>
+          </div>
+          <!-- Right Column -->
+          <div class="col-md-6">
+            <h3 class="text-center"> Education </h3>
+            <ul class="timeline">
+              <li>
+                <h4><span>Master's </span> Information Technology and Management </h4>
+                <b>Specialization</b> - Web Application and Development<br>
+                <b>Duration</b> - 2 Year [2019 to 2020]<br>
+                <b>Institute</b> - Illinois Institute Of Technology<br>
+                <b>Aggregate</b> - GPA: 3.66<br>
 
-                                    <b>Location</b> - Chicago, IL, USA<br>
-                                    <b>Status </b><b class="Continue">In Progress</b> <br>
-  
-  
-  
-                                  </li>
-                                  <li>
-                                      <h4><span>Undergraduation</span> Information Science and Enginnering </h4>
-                                      <b>Institute</b> - S.J.B Institute Of Technology<br>
-                                      <b>Duration</b> - 4 years [2012 - 2016] <br>
-                                      <b>Location</b> - Bangalore, INDIA<br>
-                                      <b>Status </b><b class="Finished">Finished</b> <br>
-
-    
-    
-    
-                                    </li>
-                                   
-                                </ul>
-                              </div>
+                <b>Location</b> - Chicago, IL, USA<br>
+                <b>Status </b><b class="Finished">Finished</b> <br>
 
 
 
-                          </div>
-                        </div>
-                      </div>
-                      <!-- =========Projects=========== -->
-                      <div class="Projects" id="Projects">
-                        <div class="container">
-                          <h1 class="text-center"> My Projects </h1>
-                          <div class="row">
-                            <div class="col-lg-6">
-                              <div class="Projects-box">
-                                <p></p>
-                                  <!-- <i class="fas fa-project-diagram">  </i><span>  CITY PLANNER WEBSITE USING THE YELP API </span>
+              </li>
+              <li>
+                <h4><span>Undergraduation</span> Information Science and Enginnering </h4>
+                <b>Institute</b> - S.J.B Institute Of Technology<br>
+                <b>Duration</b> - 4 years [2012 - 2016] <br>
+                <b>Location</b> - Bangalore, INDIA<br>
+                <b>Status </b><b class="Finished">Finished</b> <br>
+
+
+
+
+              </li>
+
+            </ul>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+    <!-- =========Projects=========== -->
+    <div class="Projects" id="Projects">
+      <div class="container">
+        <h1 class="text-center"> My Projects </h1>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="Projects-box">
+              <p></p>
+              
+              <i class="fas fa-project-diagram"> </i><span> Corona Tracker (Angular,J2EE,Python, SQL, Mongodb, Twitter-API)
+              </span>
+              <p> </p>
+              <p>Develop an intuitive and user-friendly website for live tracking of COVID-19 cases in 108 countries. Develop using Redux and ReactJS
+                components to call the Mathdroid API and display the data in a graphical format. Mobile Responsive design the user interface using
+                MaterialUI. Create repository for source control using Git and deploy the application on Netlify.</p>
+                <p>Hosted: <a href="https://github.com/illinoistech-itm/pjain24/tree/master/ITMO-544/MP2 "> Corona Tracker</a> 
+                Git_Link: <a href="https://github.com/palashjain2801/Corona_website_react">Github</a>
+                </p>
+
+
+
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="Projects-box">
+              <p></p>
+              <!-- <i class="fas fa-project-diagram">  </i><span>  NFC BASED MOBILE HEALTHCARE SYSTEM </span>
+                                      <p> </p>
+                                      <p>Developed and designed a robust healthcare system by ensuring the patient receives right attention
+                                         at the right place at the need of the hour. An NFC card is made available to a consumer when registered
+                                          with the website or a hospital associated with the website, This NFC card, when  flashed under a card
+                                           reader displays all the historical data of the patient such as medication, doctors consulted, x-ray 
+                                           images etc. The access of  data is provided using cloud servers </p> -->
+              <i class="fas fa-project-diagram"> </i><span> Cloud Native Application(AWS services Auto-Scaling, Dynamo DB, SNS and Lambda function) </span>
+              <p> </p>
+              <p>Developed Imaging Processing Application and deployed using 3 tire cloud native application architecture using various Amazon Cloud
+                Services such as Auto-Scaling, Cloud based database(Dynamo DB), SNS and Lambda function to process raw image and storing processed
+                image in different S3 Bucket. </p>
+                <p>Git_Link : <a href="https://github.com/illinoistech-itm/pjain24/tree/master/ITMO-544/MP2 ">Github</a></p>
+
+
+
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="Projects-box" style="padding: 33px;">
+              <p></p>
+              <!-- <i class="fas fa-project-diagram">  </i><span>  CITY PLANNER WEBSITE USING THE YELP API </span>
                                   <p> </p>
                                   <p>Objective of project was the amplification of YELP app which helps in building the itinerary of 
                                     your trip with data based on the  reviews of tourists who have visited the same detination. Yelp 
@@ -202,101 +294,85 @@
                                     favorite and top-rated tourist spots in the destination and helps in directing you to get there. 
                                     This helps in building the best route based on the traveler’s convenience and enhancing the route
                                     optimization problem. </p> -->
-                                    <i class="fas fa-project-diagram">  </i><span> DIGICART (Angular,J2EE,Python, SQL, Mongodb, Twitter-API) </span>
-                                  <p> </p>
-                                  <p>This is a Digital marketing website which provides information to users about popular electronic gadgets and twitter feeds of latest released products.
-                                     Product information and their Reviews are collected from
-                                     multiple platforms like Amazon , BestBuy using Datafiniti  </p>
+              <i class="fas fa-project-diagram"> </i><span> DIGICART (Javascript,J2EE,Python, SQL, Mongodb, Twitter-API)
+              </span>
+              <p> </p>
+              <p>This is a Digital marketing website which provides information to users about popular electronic
+                gadgets and twitter feeds of latest released products.
+                Product information and their Reviews are collected from
+                multiple platforms like Amazon , BestBuy using Datafiniti </p>
+                
 
-
-
-                              </div>
-                            </div>
-                              <div class="col-lg-6">
-                                  <div class="Projects-box">
-                                    <p></p>
-                                      <!-- <i class="fas fa-project-diagram">  </i><span>  NFC BASED MOBILE HEALTHCARE SYSTEM </span>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="Projects-box">
+              <p></p>
+              <!-- <i class="fas fa-project-diagram">  </i><span>  NFC BASED MOBILE HEALTHCARE SYSTEM </span>
                                       <p> </p>
                                       <p>Developed and designed a robust healthcare system by ensuring the patient receives right attention
                                          at the right place at the need of the hour. An NFC card is made available to a consumer when registered
                                           with the website or a hospital associated with the website, This NFC card, when  flashed under a card
                                            reader displays all the historical data of the patient such as medication, doctors consulted, x-ray 
                                            images etc. The access of  data is provided using cloud servers </p> -->
-                                           <i class="fas fa-project-diagram">  </i><span>  LOOKUP (Angular, Google Maps API) </span>
-                                           <p> </p>
-                                           <p>Simple application using google maps API to load location services and find ATM, Bars, Hotels etc.
-                                             The purpose of this application was to mimics the working of google maps and services provided by google.
-                                              This Project was done for learning purposes only.  </p>
-    
-    
-    
-                                  </div>
-                            </div>
-                        
-                          </div>
-                        </div>
-                        <!-- Achievements -->
-<!-- 
-                        <div class="Achievements" id="Achievements">
-                            <div class="container">
-                              <h2 class="text-Center">Achievements</h2>
-                              <div class="Research_papers">
-                                <h6><b><i class="fas fa-sticky-note"></i> Research Paper Pblished</b></h6>
-                                  <a href="http://www.ijitr.com/index.php/ojs/article/view/622/pdf" class="change_color"><li>A Survey on Internet of things: Security and Privacy issues</li></a>
-                                  <a href="http://www.ijana.in/Special%20Issue/S40.pdf" class="change_color"><li>NFC Based Mobile HealthCare System</li></a>
-                              </div>
-                              <p></p>
-                              <i class="fas fa-broadcast-tower">  Radio Jockey at WIIT 88.9 FM</i>
-                              <p></p>
-                              <i class="fas fa-graduation-cap">  TechEdge scholarship of 10,000$ at Illinois Institute of Technology </i>
-                              <p></p>
-                              <i class="fab fa-firefox"> <b>Student Ambassador of Firefox [2014-2016]</b></i>
+              <!-- <i class="fas fa-project-diagram"> </i><span> LOOKUP (Javascript Google Maps API) </span>
+              <p> </p>
+              <p>Simple application using google maps API to load location services and find ATM, Bars, Hotels etc.
+                The purpose of this application was to mimics the working of google maps and services provided by
+                google.
+                This Project was done for learning purposes only. </p> -->
+                <i class="fas fa-project-diagram"> </i><span> City Planner Website Using Yelp API (HTML5, Bootstrap, JavaScript, Node JS, Express, MongoDB, Jest, pug, OpenLayers Maps,) </span>
+                <p> </p>
+                <p>Develop a web application that leverages Yelp APIs to allow users to build efficient trip itineraries based on their inputs and preferences.
+                  HTML5, Bootstrap, JavaScript, Node JS, Express, MongoDB, Jest, pug, OpenLayers Maps were used to develop itineraries trip.
+                   </p>
+                   <p>Git_Link: <a href="(https://github.com/palashjain2801/CityPlannerWebSite) ">Github</a></p>
 
 
+            </div>
+          </div>
 
 
+        </div>
+      </div>
 
-    
-    
-                              </div>
-                            </div>
-                          </div> -->
-                        <!-- Contact Details -->
-                        <div class="Contact" id="Contact">
-                            <div class="container">
-                              <h1 class="text-center"> Contact Me </h1>
-                              <p class="text-center">In case you are looking to hire expertise</p>
-                              <div class="row">
-                                  <div class="col-md-4">
-                                      <i class="fas fa-mobile-alt"></i>
-                                      <p>+1- 312-678-6501</p>
-                                  </div>
-                                  <div class="col-md-4">
-                                      <i class="fas fa-mail-bulk"></i>
+      <!-- Contact Details -->
+      <div class="Contact" id="Contact">
+        <div class="container">
+          <h1 class="text-center"> Contact Me </h1>
+          <p class="text-center">In case you are looking to hire expertise</p>
+          <div class="row">
+            <div class="col-md-4">
+              <i class="fas fa-mobile-alt"></i>
+              <p>+1- 312-678-6501</p>
+            </div>
+            <div class="col-md-4">
+              <i class="fas fa-mail-bulk"></i>
 
-                                      <p>pjain24@hawk.iit.edu</p>
-                                  </div>
-                                  <div class="col-md-4">
-                                      <i class="fab fa-linkedin-in"></i>
-                                      <p>https://www.linkedin.com/in/jainpalashiitc/</p>
-                                  </div>
-                                  <div class="col-md-4"></div>
-                                  <a href="img/Palash_Resume.pdf" download="Palash_Resume">   <button type="button" class="btn btn-primary" ><i class="fas fa-download"></i> Resume </button></a>
+              <p>pjain24@hawk.iit.edu</p>
+            </div>
+            <div class="col-md-4">
+              <i class="fab fa-linkedin-in"></i>
+              <p>https://www.linkedin.com/in/jainpalashiitc/</p>
+            </div>
+            <div class="col-md-4"></div>
+            <a href="img/Palash_Resume.pdf" download="Palash_Resume"> <button type="button" class="btn btn-primary"><i
+                  class="fas fa-download"></i> Resume </button></a>
 
-                              </div>
+          </div>
 
-                              </div>
-                            </div>
+        </div>
+      </div>
 
 
-        </section>
-        <!-- Smooth Scroll -->
-        <script src="smooth-scroll.js"></script>
-        <script>
-            var scroll = new SmoothScroll('a[href*="#"]');
-          </script>
-      
-    </body>
+  </section>
+  <!-- Smooth Scroll -->
+  <script src="smooth-scroll.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+
+</body>
 
 
 </html>
